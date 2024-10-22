@@ -24,7 +24,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include('admin_volt.urls')),
     path('travancer/', include(('travancer.urls', 'travancer'), namespace='travancer')),  
-
+    
     
     
 ]
